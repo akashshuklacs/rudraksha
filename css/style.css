@@ -148,7 +148,7 @@ body{
     padding: 8em 0 2em 0;
 }
 .w3ls-text{
-    padding: 1em;
+    padding: 1em 1em 1em 1em;
     width: 31%;
     margin: auto;
     text-align: center;
@@ -816,6 +816,9 @@ footer p a:hover{
 	.contact-form-right {
 		padding: 4em 6em 4em 4em;
 	}
+    .w3ls-text h2{
+        font-size: 48px;
+    }
 }
 @media(max-width:1080px){
 	.w3ls-text {
@@ -912,7 +915,7 @@ footer p a:hover{
 		margin: 0;
 	}
 	.w3ls-text h2 {
-		font-size: 4em;
+		font-size: 3.4em;
 	}
 	.w3ls-text {
 		width: 46%;
@@ -944,10 +947,13 @@ footer p a:hover{
 	.team-caption h4 {
 		margin: 5.5em 0 0 0;
 	}
+    .w3ls-text h2{
+        font-size: 45px;
+    }
 }
 @media(max-width:600px){
 	.w3ls-text {
-		width: 55%;
+		width: 50%;
 	}
 	.nav-tabs > li {
 		margin: 0 0px;
@@ -975,13 +981,16 @@ footer p a:hover{
 	.styled-input {
 		width: 47%;
 	}
+    .w3ls-text h2{
+        font-size: 37px;
+    }
 }
 @media(max-width:480px){
 	.w3ls-text {
 		border: solid 10px #FFFFFF;
 	}
 	.w3ls-text h2 {
-		font-size: 3em;
+		font-size: 32px;
 	}
 	.about-grid-left span {
 		font-size: 1.7em;
@@ -1130,7 +1139,7 @@ footer p a:hover{
 		width: 15%;
 	}
 	.w3ls-text h2 {
-		font-size: 2em;
+		/*font-size: 2em;*/
 	}
 	.w3ls-text {
 		border: solid 5px #FFFFFF;
