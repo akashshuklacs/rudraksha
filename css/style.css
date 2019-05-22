@@ -231,7 +231,7 @@ body{
 /*-- //introduction --*/
 /*-- about --*/
 .about,.contact{
-    background: #8e3cfe;
+    background: #ff9933;
 }
 .about-heading h3{
 	color:#FFFFFF;
@@ -245,7 +245,7 @@ body{
 /*-- Effect 1--*/
 .about-grid-left span{
 	font-size: 2em;
-    color: #8e3cfe;
+    color: #ff9933;
     display: inline-block;
     border-radius: 50%;
     text-decoration: none;
@@ -318,8 +318,8 @@ body{
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	color: #ffffff;
     cursor: default;
-    background: #8e3cfe;
-    border: solid 2px #8e3cfe;
+    background: #ff9933;
+    border: solid 2px #ff9933;
 }
 .nav-tabs > li > a {
     margin-right: 3px;
@@ -348,8 +348,8 @@ body{
 }
 .nav-tabs > li > a:hover {
     color: #FFFFFF;
-    background: #8e3cfe;
-    border: solid 2px #8e3cfe;
+    background: #ff9933;
+    border: solid 2px #ff9933;
 }
 .agile-gallery-info{
     padding: 1em;
@@ -379,10 +379,10 @@ body{
 	-ms-transition: 0.5s all;
 }
 .w3_tab_img_left:hover .agile-gallery-info{
-    border-bottom: solid 2px #8e3cfe;
+    border-bottom: solid 2px #ff9933;
 }
 .w3_tab_img_left:hover .agile-gallery-info p{
-    color: #8e3cfe;
+    color: #ff9933;
 }
 /*-- //gallery --*/
 /*-- team --*/
@@ -477,7 +477,7 @@ body{
 	background: #f26522;
 }
 .team-caption {
-    background: #8e3cfe;
+    background: #ff9933;
     padding: 1em;
     position: absolute;
     left: 0;
@@ -517,7 +517,7 @@ div#design {
 }
 .wthree-news-left h4{
     margin: 0;
-    color: #8e3cfe;
+    color: #ff9933;
     font-size: 2.5em;
     font-weight: 600;
 }
@@ -543,7 +543,7 @@ div#design {
 	text-decoration:none;
 }
 .date-text a:hover{
-    color: #8e3cfe;
+    color: #ff9933;
 }
 .date-text a:focus{
 	outline:none;
@@ -613,7 +613,7 @@ div#design {
 }
 .address-icon i.fa.fa-map-marker,.address-icon i.fa.fa-phone,.address-icon i.fa.fa-envelope{
     color: #ffffff;
-    background: #8e3cfe;
+    background: #ff9933;
     width: 40px;
     height: 40px;
     text-align: center;
@@ -641,7 +641,7 @@ div#design {
 	text-decoration:none;
 }
 .address-info p a:hover{
-	color:#8e3cfe;
+	color:#ff9933;
 }
 .address-grid:nth-child(2){
 	margin:1em 0;
@@ -752,15 +752,15 @@ div#design {
     transition: 0.5s all;
 }
 .contact-form-right input[type="submit"]:hover {
-    background:#8e3cfe;
+    background:#ff9933;
     color: #FFFFFF;
-	border: 2px solid #8e3cfe;
+	border: 2px solid #ff9933;
 }
 /*-- //contact --*/
 /*-- footer --*/
 footer{
 	padding:1em 0;
-	background: #8e3cfe;
+	background: #ff9933;
 	text-align:center;
 }
 footer p{
@@ -910,7 +910,7 @@ footer p a:hover{
 	.navbar-nav > li {
 	    float: none;
 		text-align: center;
-		background: #8e3cfe;
+		background: #ff9933;
 		display: block;
 	}
 	.navbar-nav > li > a {
