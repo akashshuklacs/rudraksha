@@ -14,7 +14,7 @@ body{
 	background:#FFFFFF;
 }
 .banner{
-	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background: url(../images/cover/c7.jpg) no-repeat 0px 0px;
     background-size: cover;
     height: 100vh;
 }
@@ -388,6 +388,14 @@ body{
 /*-- team --*/
 .team{
 	background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.new-talent{
+    background: url(../images/cover/new-talent.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.upcoming-events{
+    background: url(../images/cover/upcoming-events.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .team-dot {
