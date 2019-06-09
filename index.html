@@ -55,7 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<!-- banner -->
-	<div class="banner">
+	<div class="banner1 mySlides">
 		<div class="agileinfo-dot">
 			<div class="header">
 				<div class="container">
@@ -109,6 +109,134 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
+
+	<div class="banner2 mySlides">
+		<div class="agileinfo-dot">
+			<div class="header">
+				<div class="container">
+					<nav class="navbar navbar-default">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="agileits-logo">
+								<!-- <h1><a href="index.html"><img src="images/rudrakshaFinal.png" alt="" style="width: 25%;"><p>rudraksha</p> <p style="font-size: 0.4em">communications</p></a></h1> -->
+								<a href="index.html"><img src="logoFull.png" style="width: 20%; position: absolute"><br/></a>
+							</div>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<nav>
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="#upcoming" class="scroll">Upcoming Events</a></li>
+									<li><a href="#about" class="scroll">Services</a></li>
+									<li><a href="#events" class="scroll">Gallery</a></li>
+									<li><a href="#news" class="scroll">Events</a></li>
+									<li><a href="#mail" class="scroll">Sponsors</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- /.navbar-collapse -->
+					</nav>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3ls-text k">
+						<h2>EVENTS<br/>&<br/>PR FOR A CAUSE</h2>
+					</div>
+
+					<div class="main-buttons" style="text-align: center; margin-top: 5em;">
+						<a href="#team" class="scroll"><button class="btn btn-lg">Talent Platform</button></a>
+						<a href="#mail" class="scroll"><button class="btn btn-info btn-lg" style="margin-left: 48px">Contact</button></a>
+					</div>	
+
+					<div class="w3-arrow bounce animated" style="position:absolute; bottom: 50px; left: 49%">
+						<a href="#indro" class="scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="banner3 mySlides">
+		<div class="agileinfo-dot">
+			<div class="header">
+				<div class="container">
+					<nav class="navbar navbar-default">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="agileits-logo">
+								<!-- <h1><a href="index.html"><img src="images/rudrakshaFinal.png" alt="" style="width: 25%;"><p>rudraksha</p> <p style="font-size: 0.4em">communications</p></a></h1> -->
+								<a href="index.html"><img src="logoFull.png" style="width: 20%; position: absolute"><br/></a>
+							</div>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<nav>
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="#upcoming" class="scroll">Upcoming Events</a></li>
+									<li><a href="#about" class="scroll">Services</a></li>
+									<li><a href="#events" class="scroll">Gallery</a></li>
+									<li><a href="#news" class="scroll">Events</a></li>
+									<li><a href="#mail" class="scroll">Sponsors</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- /.navbar-collapse -->
+					</nav>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3ls-text k">
+						<h2>EVENTS<br/>&<br/>PR FOR A CAUSE</h2>
+					</div>
+
+					<div class="main-buttons" style="text-align: center; margin-top: 5em;">
+						<a href="#team" class="scroll"><button class="btn btn-lg">Talent Platform</button></a>
+						<a href="#mail" class="scroll"><button class="btn btn-info btn-lg" style="margin-left: 48px">Contact</button></a>
+					</div>	
+
+					<div class="w3-arrow bounce animated" style="position:absolute; bottom: 50px; left: 49%">
+						<a href="#indro" class="scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
 	<!-- //banner -->
 
 	<!-- introduction -->
@@ -555,6 +683,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				$(document).ready(function(){
 					$('.cm-overlay').cmOverlay();
 				});
+
 			</script>
 		</div>
 	</div>

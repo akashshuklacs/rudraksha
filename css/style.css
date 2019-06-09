@@ -19,11 +19,25 @@ html, body{
 body{
 	background:#FFFFFF;
 }
-.banner{
+.banner1{
 	background: url(../images/cover/c7.jpg) no-repeat 0px 0px;
     background-size: cover;
     height: 100vh;
 }
+
+.banner2{
+    background: url(../images/cover/pankaj.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner3{
+    background: url(../images/cover/wadali.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    height: 100vh;
+}
+
+
 .agileinfo-dot{
 	background: url(../images/dott.png)repeat 0px 0px;
     background-size: 2px;
